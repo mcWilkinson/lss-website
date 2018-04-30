@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+}
+
+.lss-right {
+  float: right;
+}
+
+.lss-page {
+  margin: 0px;
+}
+
+.lss-banner {
+  display: inline;
+}
+
+.lss-logo {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  font-size: 5em;
+  background-color: #aabfe2;
+}
+
+.lss-nav-bar {
+  background-color: #555555;
+  padding: 4px 8px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.lss-nav-bar-item {
+  padding: 14px 16px;
+  margin: 2px 4px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.lss-nav-bar-item:hover {
+  color: lightgrey;
+  background-color: #888888;
+}
+
+.lss-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lss-sticky + .lss-page {
+  margin-top: 20px;
+}
+
+.lss-footer {
+  padding: 4px 8px;
+  background-color: #555555;
+  vertical-align: bottom;
+  color: white;
+}
+
+.lss-content {
+  padding: 16px;
+}
+
+.lss-image-parallax-1 {
+  background-image: url("images/background1.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lss-image-parallax-2 {
+  background-image: url("images/background2.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lss-image-parallax-3 {
+  background-image: url("images/background3.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lss-image-parallax-4 {
+  background-image: url("images/background4.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
